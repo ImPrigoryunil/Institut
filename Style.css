@@ -43,6 +43,7 @@ header{
     background-color: #CCCCCC;
 }
 .ml1{
+	text-indent: 30px;
     width: 305px;
     font-size: 18pt;
     font-family: serif;
@@ -110,7 +111,6 @@ footer{
     text-align: center;
     font-size: 16pt;
 }
-
 *{box-sizing:border-box}
 .slideshow-container {
 	width: 1000px;
@@ -127,11 +127,49 @@ footer{
   padding: 16px;
   color: white;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 18pt;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
 }
-
+.mr21{
+	text-indent: 30px;
+	font-size: 22pt;
+	font-family: Georgia, serif;
+}
+.g{
+	font-size: 50pt;
+	float: left;
+}
+.gr{
+	font-size: 50pt;
+	float: right;
+}
+.mr22{
+	margin-top: 20px;
+	font-size: 22pt;
+	font-family: Georgia, serif;
+}
+.fr{
+	font-size: 24pt;
+	font-weight: bold;
+	font-style: italic;
+}
+.mr3{
+	margin-top: 20px;
+	clear: both;
+	text-indent: 30px;
+}
+.im{
+	width:300px;
+	height: 300px;
+	float: left;
+}
+.us{
+	text-decoration: underline;
+}
+ul{
+	margin-left: 50px;
+}
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
