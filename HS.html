@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<!--# Главная-->
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Институт живых систем</title>
+    <link rel="stylesheet" href="Style.css">
+  </head>
+  <body>
+    <header>
+		<form action="HS.html">
+			<input type="image" src="button.jpg" style="width: 100px">
+		</form>
+		<a href="HS.html" class="b">ИЖС БФУ им. И. Канта</a>
+		<a href="ML.html" class="b">Лаборатория</a>
+		<a href="LF.html" class="b">Аналитика</a>
+    </header>
+    <div class="midle">
+	<div class="ml">
+		<p class="ml1"><span class="ml11">Кёнигсбергский университет (Альбертина) (нем. <span class="ml11">Albertus-Universität Königsberg</span>) — старейший университет Пруссии.</span><span class="ml2"> «Кёнигсбергский университет был открыт 17 августа 1544 года герцогом Альбрехтом Гогенцоллерном и стал вторым после университета во Франкфурте-на-Одере (1506) высшим академическим заведением будущего Прусско-Бранденбургского государства».</span></p>
+	</div>
+	<div class="mr">
+    <div class="slideshow-container">
+		<div class="mySlides fade">
+			<img src="https://sun9-33.userapi.com/impf/c855024/v855024702/2e16f/miN0VE4ZDyI.jpg?size=1280x853&quality=96&sign=c9ecde151826a3c40f6a5c1b6e055e84&type=album" style="width:90%">
+		</div>
+
+		<div class="mySlides fade">
+			<img src="https://day-off39.ru/images/uploads/interesno/istoriya-mediciny-v-kenigsberge/1.jpg" style="width:100%">
+		</div>
+
+		<div class="mySlides fade">
+			<img src="https://sun9-43.userapi.com/impg/6PtaDe1de3toOOSTZSrZovwMvAYo9-JyBUbvFQ/tmgy95rN11k.jpg?size=1162x735&quality=96&sign=eea54134c068fce2d770f2e94a5c769a&c_uniq_tag=3mIspg486b6_cagxd2ytpM0EMvlPHjTEvl-QkK-pbSI&type=album" style="width:100%">
+		</div>
+		<div class="mySlides fade">
+			<img src="https://i.pinimg.com/originals/f6/16/2d/f6162dfa9efa3b293aaa7d387f7680ba.jpg" style="width:100%; max-height: 650px">
+		</div>
+	</div>
+	<div style="text-align:center">
+		<span class="dot" onclick="currentSlide(1)"></span>
+		<span class="dot" onclick="currentSlide(2)"></span>
+		<span class="dot" onclick="currentSlide(3)"></span>
+		<span class="dot" onclick="currentSlide(4)"></span>
+	<script>
+	var slideIndex = 0;
+	showSlides();
+	function showSlides() {
+		var i;
+		var slides = document.getElementsByClassName("mySlides");
+		var dots = document.getElementsByClassName("dot");
+		for (i = 0; i < slides.length; i++) {
+		slides[i].style.display = "none";  
+		}
+		slideIndex++;
+		if (slideIndex > slides.length) {slideIndex = 1}    
+		for (i = 0; i < dots.length; i++) {
+			dots[i].className = dots[i].className.replace(" active", "");
+		}
+		slides[slideIndex-1].style.display = "block";  
+		dots[slideIndex-1].className += " active";
+		setTimeout(showSlides, 3000); // Wechseln jede 3 sek
+	}
+	</script>
+	</div>
+	<p class="t1">Институт живых систем БФУ им. И. Канта - передовой научно-образовательный центр, расположенный в самом западном регионе России.</p>
+	<p class="t2">ИЖС - это уникальная площадка для реализации смелых амбиций, формирования востребованных навыков и профессиональных компетенций. Успехи наших студентов и выпускников базируются на интеграции науки и образования.</p>
+	<p class="t3">В ИЖС мы консолидируем все возможные формы образования, предоставляем возможность выбора индивидуальных образовательных траекторий, учитывая собственное видение студентами своего профессионального будущего.</p>
+	</div>
+	</div>
+	<footer bgcolor="#B4E6EFF">
+		<div class="bottom">Итоговая контрольная работа Выполнил: Матвеев Матвей, студент ИЖС</div>
+	</footer>
+  </body>
+  
+</html>
